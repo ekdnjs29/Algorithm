@@ -2,9 +2,9 @@ class Solution {
     public int solution(String s) {
         int answer = 0;
         
-        String code = s.charAt(0) +"";
+        char code = s.charAt(0);
         
-        if (code == "-"){
+        if (code == '-'){
             int n = Integer.parseInt(s.substring(1));
             answer -= n;
         }
